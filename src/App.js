@@ -12,7 +12,7 @@ function App() {
 return(
 
 <BrowserRouter basename="/dilshans">
-<Router>
+
 <Routes>
   
 <Route exact path="/" element={<Home />} />
@@ -20,7 +20,7 @@ return(
 {/* <Route path="/Contact" element={<Home section="foot" />} /> */}
 {/* <Link to="/#foot"></Link> */}
 </Routes>
-</Router>
+
 </BrowserRouter>
  
 );
