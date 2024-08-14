@@ -1,4 +1,4 @@
-import { BrowserRouter as BrowserRouter,Router, Routes, Route,} from 'react-router-dom';
+import { HashRouter as Router, Routes, Route,} from 'react-router-dom';
 import './App.css';
 import About from './view/About';
 import Home from './view/Home';
@@ -11,8 +11,7 @@ function App() {
 
 return(
 
-<BrowserRouter basename="/dilshans">
-
+<Router>
 <Routes>
   
 <Route exact path="/" element={<Home />} />
@@ -20,8 +19,8 @@ return(
 {/* <Route path="/Contact" element={<Home section="foot" />} /> */}
 {/* <Link to="/#foot"></Link> */}
 </Routes>
+</Router>
 
-</BrowserRouter>
  
 );
   // const w=2;

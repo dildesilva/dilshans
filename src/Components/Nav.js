@@ -19,8 +19,8 @@ function Nav() {
                     <button className="hamburger" onClick={toggleMenu}>☰</button>
                     <div className={`navbar ${isActive ? 'active' : ''}`} id="navbar">
                         <ul>
-                            <li><a href="/dilshans"><i className="bi bi-house-fill"></i> Home</a></li>
-                            <li><a href="/dilshans/about"><i className="bi bi-person-lines-fill"></i> About Me</a></li>
+                            <li><a href="#/"><i className="bi bi-house-fill"></i> Home</a></li>
+                            <li><a href="#/about"><i className="bi bi-person-lines-fill"></i> About Me</a></li>
                             {/* <li><a href="acda.html"><i className="bi bi-laptop"></i> Academic</a></li> */}
                             <li><a href="acda.html"><i className="bi bi-laptop"></i> Social</a></li>
                             <li><a href="https://dildesilva.github.io/dilshan/project.htmljj"><i className="bi bi-cpu"></i> Projects</a></li>
