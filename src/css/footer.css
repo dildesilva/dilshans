@@ -1,0 +1,120 @@
+.footer-main {
+    margin: auto;
+    width: 100%;
+    height: 45vh;
+    /* background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgba(0, 0, 0, 0.897)), url("../image/b7.jpg") fixed; */
+    background-color: rgb(0, 0, 0);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.footer-style{
+    margin: auto;
+    width: 99%;
+    height: 85%;
+    background: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603)),url("../image/b6.jpg") fixed;
+
+    /* background-color: aliceblue; */
+    border-radius: 0 10000px 1000px 10000px;
+
+}
+.footer-inter-main{
+   
+    margin: auto;
+    width: 95%;
+    height: 95%;
+    /* background-color: bisque; */
+    display: flex;
+}
+.folllter-sections ul li{
+
+    margin: auto;
+    color: white;
+    /* text-align: center; */
+    margin-left: 100px;
+    list-style: none;
+    margin-top: 20px;
+}
+.folllter-sections h5{
+    text-align: center;
+    color: cadetblue;
+}
+.folllter-sections{
+   
+    margin: auto;
+    width: 25%;
+    height: 90%;
+}
+.folllter-sections ul li a{
+    /* text-align: center; */
+    text-decoration: none;
+    font-family: monospace;
+    font-size: medium;
+    color: white;
+   text-transform: capitalize;
+}
+.folllter-sections ul li a:hover{
+    color: rgb(59, 59, 59);
+}
+.slash-footer{
+    margin: auto;
+    /* margin-top: px; */
+    width: 99%;
+    height:15%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0px 0 50px 0;
+}
+.slash-footer p{
+    margin-top: 0;
+    text-align: center;
+    font-size:15px;
+    color: whitesmoke;
+}
+@media (max-width:768px) {
+    .footer-main {
+        margin: auto;
+        width: 100%;
+        height: 30vh; /* background:linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.459)), url("../image/b7.jpg") fixed; */
+        
+    }
+    .footer-style{
+        margin: auto;
+        width: 99%;
+        height: 85%;
+        background: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603)),url("../image/b6.jpg") fixed;
+        border-radius: 0 100px 0 100px;
+    }
+    .folllter-sections ul li{
+        margin: auto;
+        color: rgb(255, 255, 255);
+        /* text-align: center; */
+        margin-left: 0px;
+        list-style: none;
+        margin-top: 10px;
+        font-size: 10px;
+    
+    }
+    .folllter-sections h5{
+        font-size: 10px;
+        /* display: none; */
+    }
+    .folllter-sections ul li a{
+       font-size: 10px;
+       /* margin-top: 20px; */
+    }
+    .slash-footer{
+        margin: auto;
+        width: 99%;
+        height:15%;
+        background-color: black;
+        border-radius: 30px 0 50px 0;
+        /* font-size: 10px; */
+    }
+    .slash-footer p{
+        font-size:x-small;
+        color: rgb(71, 71, 71);
+    }
+    
+}

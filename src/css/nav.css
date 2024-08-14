@@ -1,0 +1,118 @@
+nav {
+    position: fixed;
+    margin-left: 8%;
+    width: 85%;
+    height: 60px;
+    margin-top: 10px;
+    background: linear-gradient(rgb(89, 0, 255),rgb(89, 0, 255), rgba(89, 0, 255, 0.753)),url("../image/b6.jpg") fixed;
+
+/* background-size: cover; */
+    border-radius: 40px 40px 40px 40px;
+}
+
+.navDUplicate {
+    border-radius: 40px 40px 40px 40px;
+    margin: auto;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    transition: 1s;
+}
+
+.navDUplicate:hover {
+    width: 100%;
+    border-radius: 90px;
+    background-color: rgb(27, 27, 27);
+}
+
+.logonav {
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.logonav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-left: 40px;
+    transition: 0.4s;
+}
+
+.navbar ul li a:hover {
+    color: rgb(119, 0, 255);
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+.navbar ul li a {
+    transition: 0.1s;
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform:capitalize;
+}
+.hamburger {
+    display: none;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-right: 20px; /* Add margin to the right of the hamburger button */
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 951px) {
+    .hamburger {
+        display: block; /* Show the hamburger on smaller screens */
+    }
+
+    .navbar {
+        display: none; /* Hide navbar initially on smaller screens */
+    }
+
+    .navbar.active {
+        display: block; /* Show navbar when it's active */
+        position: absolute;
+        background-color: rgb(89, 0, 253);
+        width: 40%;
+        top: 50px; /* Adjust based on the height of your nav bar */
+        right: 0;
+        padding: 10px;
+        text-align:left;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+    .navDUplicate:hover {
+        /* position: sticky; */
+        border-radius: 40px 40px 40px 40px;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(27, 27, 27);
+    }
+}
