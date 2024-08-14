@@ -1,4 +1,4 @@
-import { BrowserRouter as HashRouter,Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as BrowserRouter,Router, Routes, Route,} from 'react-router-dom';
 import './App.css';
 import About from './view/About';
 import Home from './view/Home';
@@ -11,7 +11,7 @@ function App() {
 
 return(
 
-<HashRouter>
+<BrowserRouter basename="/dilshans">
 <Router>
 <Routes>
   
@@ -21,7 +21,7 @@ return(
 {/* <Link to="/#foot"></Link> */}
 </Routes>
 </Router>
-</HashRouter>
+</BrowserRouter>
  
 );
   // const w=2;
