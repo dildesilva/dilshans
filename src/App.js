@@ -15,7 +15,7 @@ return(
 <Router>
 <Routes>
   
-<Route path="/dilshans" element={<Home />} />
+<Route exact path="/dilshans" element={<Home />} />
 <Route path="/about" element={<About />} />
 {/* <Route path="/Contact" element={<Home section="foot" />} /> */}
 {/* <Link to="/#foot"></Link> */}
